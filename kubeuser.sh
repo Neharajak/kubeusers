@@ -63,4 +63,4 @@ users:
     client-key-data: $(cat $CLIENT_KEY | base64 --wrap=0)
 EOF
 ## chown -R $USER:$USER /home/$USER
-
+##end
